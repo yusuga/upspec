@@ -171,7 +171,7 @@ int main(int argc, const char * argv[])
         commandResultsWithCmdPath(kGitPath,
                                   @[@"commit",
                                     @"-m",
-                                    [NSString stringWithFormat:@"\"Update %@ %@\"", repoName, incrementTag],
+                                    [NSString stringWithFormat:@"Update %@ %@", repoName, incrementTag],
                                     @"-a"],
                                   podspecRootPath);
         
