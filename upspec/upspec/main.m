@@ -90,9 +90,9 @@ int main(int argc, const char * argv[])
             return 0;
         }
         
-        /* [Current directory] git push origin --tags */
+        /* [Current directory] git push origin master --tags */
         
-        commandResultsWithCmdPath(kGitPath, @[@"push", @"origin", @"--tags"], currentDirectoryPath);
+        commandResultsWithCmdPath(kGitPath, @[@"push", @"origin", @"master", @"--tags"], currentDirectoryPath);
         
         /* [podspec] cp -r <recetTag-dir> <incrementTag-dir> */
         
